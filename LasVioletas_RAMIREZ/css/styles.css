@@ -1,0 +1,147 @@
+/*ESTILO HEADER*/
+html{
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px rgb(126, 124, 128);
+    }
+
+header img {
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+
+
+nav{
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@font-face{
+    font-family: "Fredoka";
+    src: url(../fonts/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+
+.lista-navegacion {
+    display: flex;
+    background-color:white;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+   font-family: "Fredoka",sans-serif;
+}
+
+.lista-navegacion li {
+    color: darkviolet;
+}
+
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+/* FIN ESTILO HEADER*/
+
+/*ESTILO TITULOS y LINKS*/
+
+h1 {
+    font-family: "Fredoka",sans-serif;
+    color:rgb(119, 48, 191);
+    margin-top: 0%;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: "Fredoka",sans-serif;
+    color:rgb(103, 99, 107);
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+
+p {
+    font-family: "Fredoka",sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+/*FIN ESTILO TITULOS y LINKS*/
+
+/*BODY*/
+
+#resumen {
+background-image: url(../img/portada_agua3.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+#resumen p {
+    color:rgb(126, 124, 128);
+    font-size: x-large;
+    width: 40%;
+    padding-left: 30px;
+    }
+
+#mision {
+    background-color: rgb(211, 199, 237);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#mision p {
+    color:rgb(126, 124, 128);
+    font-size: x-large;
+    padding-left: 10px;
+    margin-bottom: 0%;
+    padding-bottom: 15px;
+    width: 47%;
+}
+
+/*BODY*/
+
+
+/*ESTILO FOOTER*/
+#tabla-footer {
+    color: grey;
+    width: 100%;
+    font-family: "Fredoka",sans-serif;
+    background-color: white;
+    border-top: solid 3px rgb(126, 124, 128);
+    width: 100%;
+    padding-top: 4px;
+}
+
+#tr-footer{
+    display: flex;
+justify-content: center;
+}
+
+#ths {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*FIN ESTILO FOOTER*/
+
